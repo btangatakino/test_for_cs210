@@ -28,13 +28,13 @@ class Employee
         }
         else
         {
-            Console.WriteLine("Your Salary i}", GrossPay);
+            Console.WriteLine("Your Salary is}", GrossPay);
         }
     }
     public void ShowEmployeeDetails()
     {
-        Console.WriteLine("Employee Id is: {0} ", this.Eid);
-        Console.WriteLine("Employee Name is {0}: ", this.Ename);
+        Console.WriteLine("Employee Id is {0}: ", this.Eid);
+
         this.CalculateSalary();
     }
 }
