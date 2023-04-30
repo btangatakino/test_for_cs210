@@ -33,8 +33,8 @@ class Employee
     }
     public void ShowEmployeeDetails()
     {
-        Console.WriteLine("Employee Id is: "{Eid});
-        Console.WriteLine("Employee Name is: "{Ename});
+        Console.WriteLine("Employee Id is: ",Eid);
+        Console.WriteLine("Employee Name is: ",Ename);
         this.CalculateSalary();
     }
 }
