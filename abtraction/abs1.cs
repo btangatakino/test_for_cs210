@@ -24,17 +24,17 @@ class Employee
         if(GrossPay >= 30000)
         {
             netSalary = GrossPay - (TaxDeduction * GrossPay);
-            Console.WriteLine("Your Salary is {0}", netSalary);
+            Console.WriteLine("Your Salary is {netSalary}");
         }
         else
         {
-            Console.WriteLine("Your Salary is {0}", GrossPay);
+            Console.WriteLine("Your Salary i}", GrossPay);
         }
     }
     public void ShowEmployeeDetails()
     {
-        Console.WriteLine("Employee Id is: ",this.Eid);
-        Console.WriteLine("Employee Name is: ",this.Ename);
+        Console.WriteLine("Employee Id is: "{Eid});
+        Console.WriteLine("Employee Name is: "{Ename});
         this.CalculateSalary();
     }
 }
